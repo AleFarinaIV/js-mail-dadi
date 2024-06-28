@@ -10,3 +10,6 @@ for (let i = 0; i < mailList.length; i++) {
         document.getElementById('mail-true').innerHTML = "La mail da te inserita è verificata"
     }
 }
+if (verification === false) {
+    document.getElementById('mail-false').innerHTML = "La mail da te inserita non è verificata"
+}
