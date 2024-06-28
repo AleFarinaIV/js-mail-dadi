@@ -1,0 +1,1 @@
+const mailList = ["lucapatola700943@gmail.com", "simonedurso50@gmail.com", "lauracorrado23@gmail.com", "alefarina4@gmail.com", "toccus.ilre@gmail.com"]
