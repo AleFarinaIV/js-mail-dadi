@@ -2,3 +2,7 @@ const mailList = ["lucapatola700943@gmail.com", "simonedurso50@gmail.com", "laur
 
 let mail = prompt("Inserisci la tua mail")
 console.log(mail)
+
+for (let i = 0; i < mailList.length; i++) {
+    console.log(mailList[i])
+}
