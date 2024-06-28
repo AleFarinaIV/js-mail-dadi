@@ -14,6 +14,13 @@ Creare un array contenente delle mail verificate
 Dichiarare una variabile
     Assegnare a questa variabile il valore(mail) recuperato dalla prompt specifica
 
+Creare una variabile per la verifica della mail
+
 Verificare tramite ciclo FOR se la mail è contenuta nell'array
-    IF il valore recuperato corrisponde a un elemento dell'array stampiamo un messaggio di esito positivo
-    ELSE il valore recuperato non corrisponde a un elemento dell'array stampiamo un messaggio di esito negativo
+    IF il valore recuperato corrisponde a un elemento dell'array
+        Assegno alla variabile di verifica valore TRUE
+        E stampo un messaggio di esito positivo all'utente
+
+IF la variabile di verifica corrisponde a FALSE
+    Stampo un messaggio di esito negativo all'utente
+
