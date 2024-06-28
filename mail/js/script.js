@@ -6,6 +6,6 @@ console.log(mail)
 for (let i = 0; i < mailList.length; i++) {
     console.log(mailList[i])
     if (mailList[i].toLowerCase() === mail) {
-        console.log("La mail è presente nella lista")
+        document.getElementById('mail-true').innerHTML = "La mail da te inserita è verificata"
     }
 }
